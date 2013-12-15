@@ -10,7 +10,6 @@ public class Telegram {
 		String buffer = "";		
 		int charsWritten = 0;		
 		for (char c : text.toCharArray()) {
-//			System.out.println("c= " + c + ", w=" + charsWritten + ", s=" + buffer.length() + ", b='" + buffer + "'");
 			if (buffer.length() == maxLength) {				
 				if (c == ' ') {
 					result.add(buffer);
