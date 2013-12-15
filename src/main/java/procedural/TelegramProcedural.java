@@ -3,7 +3,9 @@ package procedural;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Telegram {
+import telegram.Telegram;
+
+public class TelegramProcedural implements Telegram {
 
 	public List<String> wrap(String text, int maxLength) {
 		List<String> result = new ArrayList<>();
